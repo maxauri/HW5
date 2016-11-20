@@ -1,6 +1,6 @@
 <?php
 $_GET['yy']='yy'; 
-switch (TRUE){       // the TRUE is the trick 
+switch (TRUE){
 	case (isset($_GET['xx'])): 
         	echo "do this"; 
        		break; 
