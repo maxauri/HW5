@@ -1,7 +1,10 @@
 <?php
-$foo = NULL;
-switch($foo){
+switch ($i) {
+	case NULL:
+		echo "It is NULL";
+		break;
 	case 0:
-		print "What?!";
+		echo "It is zero";
+		break;
 }
 ?>
